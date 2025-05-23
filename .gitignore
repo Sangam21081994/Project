@@ -1,0 +1,52 @@
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+
+# TestNG output
+test-output/
+
+# IDE-specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# Compiled class files (though 'target/' or 'build/' covers most of this)
+bin/
+*.class
+
+# Log files
+*.log
+
+# Package files (though 'target/' or 'build/' covers .jar, .war, .ear)
+*.jar
+*.war
+*.ear
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Secrets and sensitive information (if any, add specific files here)
+# e.g. secrets.properties
+
+# Allure specific
+allure-report/
+allure-results/
+.allure/
+
+# VSCode specific
+.vscode/
+
+# Eclipse metadata
+.metadata/
+
+# Temporary/Scratch files
+Untitled-*.xml
+command.txt # Add this line if command.txt is a temporary or generated file not essential to the project
